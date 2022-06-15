@@ -80,7 +80,7 @@ footer ul li {
   padding-top: 20px;
 }
 
-section h3 {
+section .titulosecciones, section .recomendaciones .tips, .recomendaciones section .tips, section .nosotros .row h3 {
   text-align: center;
   color: #a39590;
   font-size: 30px;
@@ -139,16 +139,6 @@ section .container .card p {
   font-weight: 300;
 }
 
-.recomendaciones h3 {
-  color: #a39590;
-  font-weight: 100%;
-  font-size: 30px;
-  text-transform: uppercase;
-  text-align: center;
-  padding-top: 90px;
-  margin-top: 10px;
-}
-
 .recomendaciones .cuidados {
   border-style: solid;
   border-color: #a39590;
@@ -176,19 +166,40 @@ section .nosotros .row .nleft {
   background-position: center;
 }
 
-section .nosotros .row h3 {
-  text-align: center;
-  color: #a39590;
-  font-size: 30px;
-  text-transform: uppercase;
-  margin-top: 5%;
-  text-align: center;
-}
-
 section .nosotros .row p {
   line-height: 25px;
   margin-bottom: 0%;
   text-align: center;
+}
+
+.maps-#6e5257 {
+  height: 150px;
+  width: 350px;
+  font-size: 20px;
+  text-align: end;
+  background-color: #6e5257;
+  border-radius: 5px;
+  line-height: 100px;
+}
+
+.maps-#521b52 {
+  height: 150px;
+  width: 350px;
+  font-size: 30px;
+  text-align: end;
+  background-color: #521b52;
+  border-radius: 5px;
+  line-height: 100px;
+}
+
+.maps-#947192 {
+  height: 150px;
+  width: 350px;
+  font-size: 40pc;
+  text-align: end;
+  background-color: #947192;
+  border-radius: 5px;
+  line-height: 100px;
 }
 
 main {
