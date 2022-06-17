@@ -14,7 +14,7 @@ nav {
   background-image: url(../assets/img/centro.jpg);
   background-size: cover;
   background-position: center;
-  height: 450px;
+  height: 750px;
   text-shadow: 1px 1px 3px;
   border-radius: 0%;
   margin-bottom: 0%;
@@ -38,17 +38,16 @@ nav {
   text-transform: uppercase;
   line-height: 1.5;
   text-decoration: none;
-  color: #faf7f5;
+  color: #a39590;
 }
 
 .jumbotron .btn:hover {
   text-decoration: none;
-  background-color: #a39590;
 }
 
 footer {
   padding-top: 30px;
-  position: absolute;
+  bottom: 0%;
   width: 100%;
   height: 120px;
   background-color: #a39590;
@@ -56,7 +55,6 @@ footer {
 }
 
 footer p {
-  position: absolute;
   bottom: 0%;
   right: 0%;
   width: 100%;
@@ -72,7 +70,7 @@ footer ul {
   width: 100%;
 }
 
-footer ul li {
+footer ul .instagram {
   display: inline-block;
   width: 9%;
   position: relative;
@@ -80,7 +78,23 @@ footer ul li {
   padding-top: 20px;
 }
 
-section .titulosecciones, section .recomendaciones .tips, .recomendaciones section .tips, section .nosotros .row h3 {
+footer ul .facebook {
+  display: inline-block;
+  width: 9%;
+  position: relative;
+  font-size: 3px;
+  padding-top: 20px;
+}
+
+footer ul .whatsapp {
+  display: inline-block;
+  width: 9%;
+  position: relative;
+  font-size: 3px;
+  padding-top: 20px;
+}
+
+section .tituloservicios, section .nosotros .row h3 {
   text-align: center;
   color: #a39590;
   font-size: 30px;
@@ -139,7 +153,16 @@ section .container .card p {
   font-weight: 300;
 }
 
-.recomendaciones .cuidados {
+.recomendaciones h3 {
+  text-align: center;
+  color: #a39590;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.cuidados {
   border-style: solid;
   border-color: #a39590;
   border-radius: 4px;
@@ -157,7 +180,7 @@ section .nosotros {
 }
 
 section .nosotros .row {
-  height: 500px;
+  height: 800px;
 }
 
 section .nosotros .row .nleft {
@@ -168,50 +191,19 @@ section .nosotros .row .nleft {
 
 section .nosotros .row p {
   line-height: 25px;
-  margin-bottom: 0%;
   text-align: center;
-}
-
-.maps-#6e5257 {
-  height: 150px;
-  width: 350px;
-  font-size: 20px;
-  text-align: end;
-  background-color: #6e5257;
-  border-radius: 5px;
-  line-height: 100px;
-}
-
-.maps-#521b52 {
-  height: 150px;
-  width: 350px;
-  font-size: 30px;
-  text-align: end;
-  background-color: #521b52;
-  border-radius: 5px;
-  line-height: 100px;
-}
-
-.maps-#947192 {
-  height: 150px;
-  width: 350px;
-  font-size: 40pc;
-  text-align: end;
-  background-color: #947192;
-  border-radius: 5px;
-  line-height: 100px;
 }
 
 main {
   width: 250px;
-  height: 50%;
+  bottom: 0%;
   background: #a39590;
   padding: 30px;
   margin: auto;
   margin-top: 30px;
   border-radius: 4px;
   font-family: "Tiro Telugu", serif;
-  color: #070404;
+  color: #a39590;
 }
 
 main h3 {
